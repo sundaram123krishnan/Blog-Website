@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
-import ControlledEditor from "./Add";
+import UncontrolledEditor from "./Add";
 import Content from "./Content";
 import Home from "./Home";
 
@@ -21,7 +21,7 @@ export default function Navbar() {
         </div>
       </div>
       <Routes>
-        <Route exact path="/add" element={<ControlledEditor />} />
+        <Route exact path="/add" element={<UncontrolledEditor />} />
         <Route exact path="/blogs" element={<Content />} />
         <Route exact path="/" element={<Home />} />
       </Routes>
