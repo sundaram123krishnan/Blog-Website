@@ -34,8 +34,7 @@ class ControlledEditor extends Component {
       console.log(element.text);
     });
 
-   
-
+    
     return (
       <div className="flex flex-col items-center justify-center mt-10 gap-10">
         <div className="text-3xl font-bold">
