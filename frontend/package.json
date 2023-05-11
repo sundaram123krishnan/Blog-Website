@@ -11,6 +11,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@tiptap/extension-color": "^2.0.3",
     "@tiptap/extension-highlight": "^2.0.3",
     "@tiptap/extension-link": "^2.0.3",
     "@tiptap/extension-subscript": "^2.0.3",
